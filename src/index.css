@@ -1,7 +1,7 @@
 body {
-  background: #ebfffa;
+  background: linear-gradient(-225deg, #e3fdf5 0%, #ffe6fa 100%);
 
-  background-size: inherit;
+  background-size: 5000px 5000px;
 
   background-repeat: no-repeat;
   font-family: "Josefin Sans", sans-serif;
