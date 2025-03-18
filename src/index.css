@@ -41,12 +41,13 @@ main {
 }
 .temperature-value {
   font-size: 88px;
+  line-height: 88px;
   font-weight: 400;
 }
 .icon {
-  font-size: 46px;
-  margin-top: 15px;
-  margin-left: 10px;
+  width: 65px;
+  height: 65px;
+  line-height: 88px;
 }
 .unit {
   margin-top: 10px;
