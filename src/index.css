@@ -17,7 +17,7 @@ body {
 html {
   height: 100%;
   width: 100%;
-  font-size: 0;
+  font-size: 22px;
 }
 header {
   padding: 0 0 30px 0;
@@ -92,6 +92,34 @@ main {
   color: white;
 
   font-size: 17px;
+}
+.weather-forecast-date {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 18px;
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.weather-forecast-icon {
+  text-align: center;
+  font-size: 38px;
+  margin-bottom: 12px;
+}
+.weather-forecast-temperatures {
+  margin-top: 12px;
+  text-align: center;
+  color: #f65282;
+  display: flex;
+  justify-content: center;
+}
+.weather-forecast-temperature {
+  padding: 0 10px;
 }
 footer {
   padding: 30px 0 0 0;
