@@ -1,5 +1,9 @@
 body {
-  background: linear-gradient(-225deg, #e3fdf5 0%, #ffe6fa 100%);
+  background: linear-gradient(
+    110.6deg,
+    rgb(184, 142, 252) 2.2%,
+    rgb(104, 119, 244) 100.2%
+  );
 
   background-size: 5000px 5000px;
 
@@ -9,8 +13,13 @@ body {
   font-weight: 500;
   font-style: normal;
 }
+
+html {
+  height: 100%;
+  width: 100%;
+  font-size: 0;
+}
 header {
-  border-bottom: 1px solid #ebfffa;
   padding: 0 0 30px 0;
 }
 a {
@@ -24,7 +33,7 @@ main {
   padding: 30px;
 }
 .weather-app-city {
-  margin: 0;
+  padding: 16px;
   font-size: 38px;
   line-height: 48px;
 }
@@ -55,9 +64,10 @@ main {
 }
 .weather-app {
   background: radial-gradient(
-    253px at 12.6% 77.9%,
-    rgb(221, 255, 214) 0.3%,
-    rgb(214, 254, 254) 90.5%
+    circle at 10% 20%,
+    rgb(186, 190, 245) 0%,
+    rgb(192, 192, 245) 33.1%,
+    rgb(218, 203, 246) 90%
   );
 
   border-radius: 15px;
@@ -80,11 +90,10 @@ main {
   border: none;
   border-radius: 6px;
   color: white;
-  margin-left: 10px;
+
   font-size: 17px;
 }
 footer {
-  border-top: 1px solid #ebfffa;
   padding: 30px 0 0 0;
   text-align: center;
   font-size: 14px;
